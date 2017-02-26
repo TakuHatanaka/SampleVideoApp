@@ -11,7 +11,7 @@ namespace SampleVideoApp
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("NavigationPage/" + nameof(MainPage));
+            NavigationService.NavigateAsync(nameof(MainPage));
         }
 
         protected override void RegisterTypes()

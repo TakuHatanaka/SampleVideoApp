@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SampleVideoApp\SampleVideoApp.csproj">
+      <Project>{38122f3d-cd0f-47b4-a8b9-2d39ac635fec}</Project>
       <Name>SampleVideoApp</Name>
     </ProjectReference>
   </ItemGroup>

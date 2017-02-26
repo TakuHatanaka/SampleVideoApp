@@ -11,7 +11,7 @@ namespace SampleVideoApp
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("MainPage?title=Hello%20from%20Xamarin.Forms");
+            NavigationService.NavigateAsync("NavigationPage/" + nameof(MainPage));
         }
 
         protected override void RegisterTypes()

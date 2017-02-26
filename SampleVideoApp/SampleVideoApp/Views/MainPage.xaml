@@ -14,6 +14,6 @@
             FontSize="16"
             Text="変更"
             TextColor="White"
-            VerticalOptions="CnterAndExpand" />
+            VerticalOptions="CenterAndExpand" />
     </StackLayout>
 </ContentPage>

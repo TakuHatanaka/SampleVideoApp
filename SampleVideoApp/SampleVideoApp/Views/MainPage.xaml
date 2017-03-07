@@ -7,7 +7,15 @@
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
     Title="動画再生サンプル"
     prism:ViewModelLocator.AutowireViewModel="True">
+    <ContentPage.Padding>
+        <OnPlatform
+            x:TypeArguments="Thickness"
+            Android="0,24,0,0"
+            WinPhone="0"
+            iOS="0,20,0,0" />
+    </ContentPage.Padding>
     <StackLayout>
-        <o:VideoPlayer Source="http://vjs.zencdn.net/v/oceans.mp4" VerticalOptions="FillAndExpand" />
+        <Label Text="サンプルです。" />
+        <o:VideoPlayer Source="http://vjs.zencdn.net/v/oceans.mp4" />
     </StackLayout>
 </ContentPage>
